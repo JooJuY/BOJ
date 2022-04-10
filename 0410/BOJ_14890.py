@@ -48,10 +48,8 @@ arr = [list(map(int, input().split())) for _ in range(N)]
 cnt = 0
 
 # 가로
-# visited =
 slide(arr, [[0]*N for _ in range(N)])
 # 세로
-# visited = [[0]*N for _ in range(N)]
 slide(list(map(list, zip(*arr))), [[0]*N for _ in range(N)])
 
 print(cnt)
