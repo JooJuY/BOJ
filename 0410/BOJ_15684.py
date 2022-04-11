@@ -38,7 +38,7 @@ def dfs(x, y, cnt):
                 ladder[i][j] = 0
 
 
-# N: 가로선 갯수 M: 현재 사다리 연결부분 갯수 H: 세로선 갯수
+# N: 세로선 갯수 M: 현재 사다리 연결부분 갯수 H: 가로선 갯수
 N, M, H = map(int, input().split())
 ladder = [[0] * N for _ in range(H)]
 for _ in range(M):
